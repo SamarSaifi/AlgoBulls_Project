@@ -49,6 +49,7 @@ todo_app/
 
 ### Prerequisites
 - Python 3.11+
+- Django>=4.2.7
 - PostgreSQL
 
 ### Installation
@@ -110,14 +111,6 @@ coverage html  # Generates HTML report
 python manage.py test todo_app.tests.e2e
 ```
 
-## 📊 Test Coverage
-
-![Coverage Report](coverage_report.png)
-
-Current test coverage:
-- Unit Tests: 100%
-- Integration Tests: 100%
-- Total Coverage: 100%
 
 ## 🔄 API Endpoints
 
